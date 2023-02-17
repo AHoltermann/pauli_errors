@@ -14,4 +14,4 @@ For n qubits, these generators create a subspace of M(2^n x 2^n). For each entry
 
 While this method is valid for X errors, and likely Z errors, I don't know if it will work for Y errors since they give negative values under transposition
 
-
+One interesting idea would be to add computation ability for arbitrary unitary of correct dimension U<xiyiixz>U* on either side of our tensored strings
