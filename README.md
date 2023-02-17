@@ -2,8 +2,8 @@
 
 
 
-## Tensor
-Contains basic machinery to calculate the tensor product of an N qubit long discrete chain of Pauli Errors
+
+**Tensor** Contains basic machinery to calculate the tensor product of an N qubit long discrete chain of Pauli Errors
 Use strings like "xiyzixixxyzziiii" to represent these chains, their matrix will be represented by the TensorCompute method
 Given a list of strings (i.e. a set of Pauli Errors) the **Errorlist** compiles an array (3 dimensional) of the corresponding matrices
 **Subspace** takes the output of Errorlist and computes each matrix in the NC graph subspace by computing E_aE_b^* 
