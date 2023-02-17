@@ -25,8 +25,10 @@ H = np.zeros(shape=(u,u))
 
 for i in range(len(G)):
     for j in range(len(G[0])):
-        if(i <= j):
+        if(i < j):
             H = np.add(H,G[i][j])
-
+            
+H = np.add(H,TensorCompute(E0))
+            
 print(H)
 
